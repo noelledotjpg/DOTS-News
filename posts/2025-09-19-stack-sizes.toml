@@ -1,0 +1,10 @@
+title = "Stack sizes"
+date = 2025-09-19T16:52:14
+body = '''
+A lot of items have new stack sizes, and many of them go beyond 64. Let us know if any of them feel wrong.
+
+* Quite a few items have smaller stacks for balancing reasons
+* Most items that stack to 256 do so because of crafting: 256 individual bricks make 64 brick blocks, and so on
+
+![image: Stack sizes](media/1418640843660857577.png)
+'''

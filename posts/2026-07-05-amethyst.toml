@@ -1,0 +1,11 @@
+title = "Amethyst"
+date = 2026-07-05T14:32:16
+body = '''
+Amethyst is a new ore that is used to craft a couple of new blocks, mainly Ward Stones, Silent Stones and Beacons.
+
+* Beacons do not give effects; they only create a beam of light used for navigation
+* Ward Stones stop hostile mobs from spawning in a radius, similar to light sources but without emitting light. They also work through walls
+* Silent Stones make nearby passive mobs silent
+
+![image: Amethyst](media/1523335713133826068.png)
+'''

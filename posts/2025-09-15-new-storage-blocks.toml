@@ -1,0 +1,13 @@
+title = "New storage blocks"
+date = 2025-09-15T06:19:14
+body = '''
+New storage blocks have been added: Cupboards, Drawers, Treasure Chests and Duffle Bags.
+
+* Cupboards and Treasure Chests are nothing special. Treasure Chests simply mark better loot in structures and can't be crafted
+* Drawers act like slabs: one has half the storage of a single chest, and a second in the same space brings it up to a full chest
+* Duffle Bags can be carried with both hands without the items falling out. Portable storage! They have fewer slots, though, and you can't use other items while carrying one. Breaking a bag makes the items fall out
+
+![image: New storage blocks](media/1417031993421594684.png)
+![image: New storage blocks](media/1417031993757270057.png)
+![image: New storage blocks](media/1417031994092556288.png)
+'''

@@ -1,0 +1,11 @@
+title = "Referee"
+date = 2026-02-05T08:00:16
+body = '''
+Why is the player name in that video green? Name colours are now randomly assigned when a world is created, and the colour you start with is based on your username. This uses Minecraft's 'team' system.
+
+To change your name colour (team), make a Referee Block. It lets you switch teams freely.
+
+Teams have no effect on gameplay and are purely cosmetic. You can still hit and collide with players who have the same name colour as you.
+
+![image: Referee](media/1468878884970954854.png)
+'''

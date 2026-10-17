@@ -1,0 +1,10 @@
+title = "Setting spawn"
+date = 2025-10-19T11:12:04
+body = '''
+It took a while to add, but there is now a block that lets you set your spawn point.
+
+It's the Respawn Anchor, retextured and modified to work in the overworld, so it needs fuel to keep respawning you.
+
+![image: Setting spawn](media/1429426874068766873.png)
+![image: Setting spawn](media/1458188781705494699.png)
+'''

@@ -1,0 +1,10 @@
+title = "Stonecutter and uncut gems"
+date = 2026-09-08T01:21:11
+body = '''
+Similar to ingots needing to be cooled, gems now need to be cut.
+
+Breaking gemstone ore gives you an uncut gem. You cut it by tossing it onto a Stonecutter, which uses sand as fuel. As with ingot cooling, gems are cut the moment they touch the Stonecutter's blade. It's instant.
+
+![image: Stonecutter and uncut gems](media/1546691842198864002.png)
+![image: Stonecutter and uncut gems](media/1546691842521960549.png)
+'''

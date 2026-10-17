@@ -1,0 +1,14 @@
+title = "Smooth lighting"
+date = 2026-08-23T03:36:09
+body = '''
+*This feature is technically not 100% done yet due to mod conflicts, and is subject to change or may not make it in at all.*
+
+Using a mod made by nikohalfkino, Disorder of the Stone now has smooth lighting!
+
+It isn't modern Minecraft's smooth lighting, though. It's much more similar to Fast lighting, just with double the resolution, and with no ambient occlusion. The first image uses Smooth Lighting; the second uses Fast lighting.
+
+Smooth lighting won't appear in future teasers until it's 100% done.
+
+![image: Smooth lighting](media/1540927601332199505.png)
+![image: Smooth lighting](media/1540927601801957386.png)
+'''

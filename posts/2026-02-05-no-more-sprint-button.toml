@@ -1,0 +1,11 @@
+title = "No more sprint button"
+date = 2026-02-05T07:47:42
+body = '''
+Modern Minecraft's sprint-swimming controls are a big improvement over Alpha's slow up-and-down bobbing, so sprint-swimming was kept when work on Disorder of the Stone began, while regular land sprinting was always gone. But having swimming controlled by the sprint button felt awkward, and it wasn't clear what to call the keybind. Rename it to 'Swim'?
+
+The solution: remove the slow up-and-down bobbing entirely and make 1.13-style swimming happen all the time. If you're entirely submerged in water, you're now always "sprint"-swimming.
+
+*This won't happen if you're just standing in a one-block-deep pool, unless you swam into that position, since your hitbox is only 1 block tall while swimming.*
+
+![video: No more sprint button](media/1468875723782623356.mp4)
+'''

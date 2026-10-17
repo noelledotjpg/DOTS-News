@@ -1,0 +1,34 @@
+{
+  "finite-liquids": {
+    "up": 13,
+    "down": 40
+  },
+  "liquids-flow-through-blocks": {
+    "up": 49,
+    "down": 2
+  },
+  "dyed-items-tab": {
+    "up": 68,
+    "down": 1
+  },
+  "quarter-hearts": {
+    "up": 113,
+    "down": 2
+  },
+  "branches": {
+    "up": 74,
+    "down": 57
+  },
+  "more-npcs": {
+    "up": 215,
+    "down": 7
+  },
+  "bosses": {
+    "up": 0,
+    "down": 0,
+    "options": {
+      "A": 42,
+      "B": 141
+    }
+  }
+}

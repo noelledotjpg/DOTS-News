@@ -1,0 +1,9 @@
+title = "Dynamite and explosion changes"
+date = 2025-09-15T05:43:19
+body = '''
+TNT can now be crafted into Dynamite, a smaller but throwable explosive.
+
+Explosions of any kind no longer break ores, which makes TNT a viable method of mining.
+
+![video: Dynamite and explosion changes](media/1417022948761407498.mp4)
+'''

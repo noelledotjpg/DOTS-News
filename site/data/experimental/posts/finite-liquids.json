@@ -1,0 +1,6 @@
+{
+  "slug": "finite-liquids",
+  "title": "Finite Liquids",
+  "date": "2025-11-08T14:34:07",
+  "body": "With this change, all liquids would become finite. One water source block will spread over multiple blocks. Liquids would also form puddles on the ground and obtain new physics, such as being displaced by blocks, being able to over-fill containers, or being able to be pushed by pistons.\nInfinite water would only exist in lakes, rivers, or oceans. Trying to drain those with a bucket will actually just create new water. Other methods of draining will not.\n\n**PROS:**\n* Players would be able to build dams/redstone contraptions that use finite liquids\n* More interesting block interactions between liquids and regular blocks\n* Cool physics\n\n**CONS:**\n* A lot of block updates, especially in oceans, which can create lag\n* Old liquid physics are gone entirely\n* A mob that spawns liquid as an attack becomes much less effective\n\n![image: Finite Liquids](media/1436770776672895089.png)\n\n![image: Finite Liquids](media/1436770777260101903.png)\n\n![image: Finite Liquids](media/1436770777914544128.png)\n\n**Update (November 8, 2025):** Finite Liquids will NOT be in Disorder of the Stone. Liquids will keep their regular behavior, for the most part."
+}

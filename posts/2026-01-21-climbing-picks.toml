@@ -1,0 +1,13 @@
+title = "Climbing picks"
+date = 2026-01-21T21:06:11
+body = '''
+Another new type of tool: Climbing Picks. They don't focus on breaking blocks or dealing damage; they're purely there to help you get around.
+
+Right-clicking a block with a Climbing Pick makes you try to mantle over it, and anything considered a ledge carries you higher. They have a noticeable cooldown, so it's difficult to scale large walls unless there are plenty of small ledges. You'll still need to build up large walls.
+
+![image: Climbing picks](media/1463640847483670600.png)
+
+![video: Climbing picks](media/1463640944946450652.mp4)
+
+It may not be very noticeable, but higher tiers of Climbing Picks lift you a bit more and have a shorter cooldown.
+'''

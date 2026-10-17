@@ -1,0 +1,12 @@
+title = "Branches"
+date = 2026-01-06T05:53:39
+body = '''
+If added, new Branch blocks would generate on trees.
+They can be walked through and have a chance of dropping either nothing, or a wooden log.
+
+( Likely won't spawn as often as in this screenshot, this is a general example of how they look )
+
+![image: Branches](media/1458020684511973476.png)
+
+**Update (February 3, 2026):** These will not be added.
+'''

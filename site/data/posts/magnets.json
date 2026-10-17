@@ -1,0 +1,6 @@
+{
+  "slug": "magnets",
+  "title": "Magnets",
+  "date": "2025-10-09T22:08:15",
+  "body": "Magnets can now be crafted. When powered with redstone, they pull entities towards them. Any non-stationary entity can be pulled, and they can even lift things into the air.\n\nYou can crouch to stop yourself from being pulled towards a magnet.\n\n![image: Magnets](media/1425968129066012792.png)"
+}

@@ -1,0 +1,12 @@
+title = "Welcome, playtesters!"
+date = 2026-10-17T14:00:00
+pinned = true
+body = '''
+Thank you for helping us playtest Disorder of the Stone!
+
+It is still in development, so expect rough edges. Finding those is exactly what the playtest is for.
+
+* Report bugs and share your feedback in #bug-reports, but check #known-issues first to avoid duplicates.
+
+The playtest is not a public release (yet). Please refrain from sharing the modpack outside of the playtest server.
+'''

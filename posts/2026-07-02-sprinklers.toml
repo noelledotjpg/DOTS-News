@@ -1,0 +1,9 @@
+title = "Sprinklers"
+date = 2026-07-02T07:19:14
+body = '''
+With a major change to how fire works, something was needed to help fight it. So now you can make Sprinklers.
+
+They put out fires and hydrate farmland in a 10x10 radius, and they can be silenced if the block below them is wool.
+
+![video: Sprinklers](media/1522139571448578058.mp4)
+'''

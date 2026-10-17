@@ -1,0 +1,58 @@
+# Site-wide settings. `python news.py build` turns this into site/data/site.json.
+
+title = "Disorder of the Stone News"
+per_page = 10   # posts per page on the front page
+
+disclaimer = "Minecraft belongs to Mojang Studios (2009–2026). Disorder of the Stone is not affiliated with Mojang Studios in any way, shape, or form."
+
+# Named links. Use them anywhere in a post body or in the sidebar below as
+#   {{links.discord}}
+# so a URL only ever has to be changed in one place.
+[links]
+discord            = "https://discord.gg/x37jbcfZRb"
+releases           = "https://github.com/noelledotjpg/DOTS-Releases/releases"
+youtube            = "https://www.youtube.com/channel/UCi1Wg7vjXwaZihsyzT3Ercg"
+screenbug          = "https://screenbug.online/"
+video_server_tour  = "https://www.youtube.com/watch?v=mOWr1Osusrg"
+video_house_tour   = "https://www.youtube.com/watch?v=0LrYHF-3LTA"
+video_monsters     = "https://www.youtube.com/watch?v=82o_ivT92Z8"
+
+# Sidebar, top to bottom. Each group may have:
+#   heading = "...."  shown as a heading
+#   bold    = true    use a small bold heading instead of the big one
+#   note    = "..."   greyed-out text
+#   links   = [ { label = "...", url = "..." }, ... ]
+#             add  wrap = true  to a link to let a long label break across lines
+#   image   = "img/x.png"   a picture from site/img/ (optional: image_url makes it a
+#                           link, image_alt describes it, image_width is in pixels)
+[[sidebar]]
+heading = "Download:"
+links = [
+  { label = "GitHub releases", url = "{{links.releases}}" },
+]
+note = "Coming to Modrinth soon™"
+
+[[sidebar]]
+heading = "Community links:"
+links = [
+  { label = "Discord Server", url = "{{links.discord}}" },
+  { label = "YouTube",  url = "{{links.youtube}}" },
+]
+
+[[sidebar]]
+heading = "Browse:"
+links = [
+  { label = "Gallery", url = "gallery.html" },
+    { label = "Videos (Archive)", url = "videos.html" },
+  { label = "Experimental Changes (Archive)", url = "experimental.html", wrap = true },
+]
+
+[[sidebar]]
+image       = "img/screenbuglogo_small.png"
+image_url   = "{{links.screenbug}}"
+image_alt   = "Screenbug"
+
+[[sidebar]]
+image       = "img/monsters.png"
+image_alt   = "A monster from Disorder of the Stone facing a player in iron armour"
+image_width = 160

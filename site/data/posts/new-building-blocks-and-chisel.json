@@ -1,0 +1,6 @@
+{
+  "slug": "new-building-blocks-and-chisel",
+  "title": "New building blocks and the Chisel",
+  "date": "2025-09-15T01:38:34",
+  "body": "Disorder of the Stone adds a handful of new building blocks. Most are variants of existing ones, but a few are entirely new.\n\nPillars, Stone Bricks and Cobblestone Bricks are new. Using a Chisel on most blocks changes their texture; the chiseled blocks still drop the original block they're a variant of, to prevent inventory clutter.\n\n![image: New building blocks and the Chisel](media/1416961359773438062.png)"
+}

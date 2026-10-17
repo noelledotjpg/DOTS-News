@@ -1,0 +1,10 @@
+title = "More NPCs"
+date = 2026-03-28T17:15:33
+body = '''
+If added, the player would be able to construct humanoid-shaped-but-not-human NPCs.
+These NPCs wouldn't do anything except walk around and close/open doors, and would have no dialogue. They would be meant purely for decoration.
+
+I don't have any examples right now as I don't want to make textures/models for these until I know if people want them or not.
+
+**Update (August 21, 2026):** Overwhelmingly yes reacts, so this is being added.
+'''

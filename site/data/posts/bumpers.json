@@ -1,0 +1,6 @@
+{
+  "slug": "bumpers",
+  "title": "Bumpers",
+  "date": "2026-06-30T18:30:46",
+  "body": "A new block that launches things. Bumpers activate whenever an entity is nearby and emit a redstone signal. If a Slime Block is underneath, they only activate when given a redstone signal.\n\n![video: Bumpers](media/1521583793482367106.mp4)"
+}

@@ -1,0 +1,12 @@
+title = "Anvils"
+date = 2026-03-06T08:00:03
+body = '''
+You can craft items, smelt items, read items, repair items and brew items. Why not smith items?
+
+By making an Anvil, you can insert a tool and one piece of its respective material to apply random modifiers to it. You always get one positive and one negative modifier, and these affect how the tool functions. For example, 'Long-Handled' increases its reach, while 'Heavy' makes it slower.
+
+Just as Bismuth can be used to repair any tool, it can also be used to smith any tool. A tool can have a maximum of two modifiers, and re-smithing a tool overwrites its previous modifiers.
+
+![image: Anvils](media/1479388078694207598.png)
+![image: Anvils](media/1479388079251914752.png)
+'''

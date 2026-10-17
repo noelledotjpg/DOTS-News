@@ -1,0 +1,10 @@
+title = "Quarter-Hearts"
+date = 2025-12-27T22:10:27
+body = '''
+Did you know? Every health value in Minecraft can have decimals. The game never tells you or visualizes this.
+If added, your health bar would now be capable of displaying decimal values.
+
+( it's worth noting that DotS has food that will only heal about a quarter of a heart )
+
+![image: Quarter-Hearts](media/1454642625037467791.png)
+'''

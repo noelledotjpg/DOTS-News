@@ -1,0 +1,17 @@
+title = "Liquids Flow Through Blocks"
+date = 2025-11-08T17:47:43
+body = '''
+With this change, waterlogging becomes a thing of the past; liquids now have their own block grid, separate from regular blocks, allowing them to flow through areas without solid faces, such as the side of stairs, through halfslabs, or piston arms.
+This also means you could 'lavalog' or 'bloodlog' a block, as there'd no longer be any restriction on what fluid can flow through blocks.
+
+**PROS:**
+* Less restrictions when building with liquids
+
+**CONS:**
+* Redstone machines would have to be designed around this; blocks such as piston arms, trapdoors, or leaves would no longer block liquids. Signs would still block liquids.
+* It may be a little more difficult to contain liquids.
+
+![image: Liquids Flow Through Blocks](media/1436819499444601043.png)
+
+**Update (November 9, 2025):** Liquids Flow Through Blocks WILL be in Disorder of the Stone, unless it like super ultra breaks something i haven't realized yet
+'''

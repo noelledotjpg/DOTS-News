@@ -1,0 +1,6 @@
+{
+  "slug": "bindles",
+  "title": "Bindles",
+  "date": "2026-07-30T20:10:23",
+  "body": "Bindles, with an I. They're just modern Minecraft's Bundles.\n\nThey are a bit more confusing, though: since a single item in the mod has a stack size of 4096, bindles display quantities out of 4096. This can't be changed.\n\n![image: Bindles](media/1532480500743143514.png)\n![image: Bindles](media/1532481042701881445.png)"
+}

@@ -1,0 +1,18 @@
+title = "Manual"
+date = 2026-01-08T11:57:40
+body = '''
+This new utility block doesn't craft anything or transform items in any way. Instead, it lets you read a description of any item you put in it.
+
+The description covers the vital information about an item and the crafting recipes it's used in. Its length varies with how complex the item is, or how many uses it has.
+
+![image: Manual](media/1458791765766312071.png)
+
+Here are just a few of the descriptions. Every item and block will have a unique description.
+
+![image: Manual](media/1458792564449738853.png)
+![image: Manual](media/1458792564764315722.png)
+![image: Manual](media/1458792565200650432.png)
+![image: Manual](media/1458792565678669834.png)
+![image: Manual](media/1458792566001762447.png)
+![image: Manual](media/1458792566362341376.png)
+'''

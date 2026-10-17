@@ -1,0 +1,6 @@
+{
+  "slug": "cage",
+  "title": "Cage",
+  "date": "2025-11-04T05:58:29",
+  "body": "Spawner Fragments are an important resource in Disorder of the Stone, and spawners are non-renewable. So how are players supposed to get more when, say, everyone on a server has already broken every spawner within a couple of thousand blocks?\n\nTo solve this, a non-regular hostile mob, the **Cage**, is being added. It spawns very rarely and acts as a sort of mobile spawner, dropping a Spawner Fragment when it dies.\n\n![image: Cage](media/1435146163517915197.png)"
+}

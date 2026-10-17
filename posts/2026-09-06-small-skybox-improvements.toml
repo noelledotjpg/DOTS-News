@@ -1,0 +1,9 @@
+title = "Small skybox improvements"
+date = 2026-09-06T19:51:46
+body = '''
+Over the course of development the overworld sky has changed a lot, but showing it off wasn't worth it until now. The sky is now more saturated, darker at the top, and has a new scrolling texture.
+
+The scrolling texture is fluff.png, which was originally used for clouds in Infdev, then removed and kept in the game's files until the end of Alpha.
+
+![video: Small skybox improvements](media/1546246552970854440.mp4)
+'''

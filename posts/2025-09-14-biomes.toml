@@ -1,0 +1,39 @@
+title = "Biomes"
+date = 2025-09-14T22:15:30
+body = '''
+Biomes have been talked about for a while but never properly shown in public. There will be 8 in total, and not all of them are finished yet. Here are the ones that are done:
+
+**Plains**
+Standard Alpha terrain generation and look. There's not much special about this biome.
+
+![image: Biomes](media/1416910257849892965.png)
+
+**Desert**
+Similar to the vanilla Minecraft desert, with cacti and a lot of sand, plus new dead trees and tumbleweeds.
+
+![image: Biomes](media/1416910727436046406.png)
+
+**Autumnal Forest**
+A dense forest that is in perpetual autumn, complete with tree stumps and piles of fallen leaves.
+
+![image: Biomes](media/1416911216110211172.png)
+
+**Bog**
+Living here is a bit of a challenge thanks to poison ivy and leeches, but it's worth it for the mud that lets you petrify logs into coal.
+
+![image: Biomes](media/1416911661184319670.png)
+
+**Tundra**
+Very much inspired by Alpha's old snow world feature: pine trees, a lot of snow, a surplus of gravel, and any water here freezes over.
+
+![image: Biomes](media/1416912131135373364.png)
+
+**Badlands**
+The craziest generation of the bunch. A myriad of blocks generate here, including terracotta and silt.
+
+![image: Biomes](media/1416912578797502645.png)
+
+These are all the biomes that have been fully implemented so far. Tropics and Mountains are still planned, if their generation can be made to work.
+
+![image: Biomes](media/1439465945931448461.png)
+'''

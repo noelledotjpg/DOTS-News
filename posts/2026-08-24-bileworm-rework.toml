@@ -1,0 +1,15 @@
+title = "Bileworm rework"
+date = 2026-08-24T08:50:34
+body = '''
+It's the moment you've all been waiting for...
+
+<br><br>
+
+...the pack release? No, that's not for another little while...
+
+![video: Bileworm rework](media/1541369368900804668.mp4)
+
+Bileworms still pack a punch, but there's a bit more method to their madness now. They no longer shoot at full speed immediately; instead they slowly ramp up their shot speed, then ramp it back down.
+
+During the downtime when they aren't puking at you, they'll try to run away and reposition, though they aren't very fast. Damaging one while it's puking slows its fire rate until the rate resets the next time it starts puking after resting.
+'''

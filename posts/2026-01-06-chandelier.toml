@@ -1,0 +1,13 @@
+title = "Chandelier"
+date = 2026-01-06T05:49:28
+body = '''
+Chandeliers are a pretty light source, but they fall if there isn't a solid block above to support them.
+
+![image: Chandelier](media/1457974330008014918.png)
+
+So if you're ever in a cave with a huge ledge or a pit you can't see the bottom of...
+
+![video: Chandelier](media/1457974625890996246.mp4)
+
+A fallen chandelier lights up the area around where it lands.
+'''

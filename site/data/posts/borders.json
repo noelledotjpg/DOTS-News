@@ -1,0 +1,6 @@
+{
+  "slug": "borders",
+  "title": "Borders",
+  "date": "2026-08-22T08:49:15",
+  "body": "This is one of the weirder things to showcase, especially since these aren't obtainable in Survival Mode, but: Border blocks exist. They stop players in Survival or Adventure mode from moving across any point above them. They're functionally identical to MinecraftEdu's border blocks.\n\n![image: Borders](media/1540644009024815114.png)\n\nThere is an invisible barrier above these, though it isn't made of Barrier blocks. The barrier only goes above the block, so players can still dig below it to cross through."
+}

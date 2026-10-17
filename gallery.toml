@@ -1,0 +1,86 @@
+# Extra pictures and clips for the Gallery page that don't belong to any post.
+# Posts (news and the experimental archive) add their own media automatically.
+#
+# file    name inside site/media/ (fetch_media.py saves Discord attachments as <attachment-id>.<ext>)
+# date    when it was posted; the gallery is sorted newest first
+# source  which filter it appears under: news, experimental, screenshots (anything else gets its own filter)
+# title   optional caption
+# Delete an entry to leave that picture out of the gallery.
+
+[[item]]
+file = "1547743686853529670.png"
+date = 2026-09-10T20:00:50
+source = "screenshots"
+
+[[item]]
+file = "1551034714901586001.png"
+date = 2026-09-19T21:58:12
+source = "screenshots"
+title = "Bug"
+
+[[item]]
+file = "1559060551567540254.png"
+date = 2026-10-12T01:30:01
+source = "screenshots"
+
+[[item]]
+file = "1559066578107240508.png"
+date = 2026-10-12T01:53:58
+source = "screenshots"
+
+[[item]]
+file = "1559068986816208916.png"
+date = 2026-10-12T02:03:32
+source = "screenshots"
+
+[[item]]
+file = "1559072025098723359.png"
+date = 2026-10-12T02:15:36
+source = "screenshots"
+
+[[item]]
+file = "1559271179330781235.png"
+date = 2026-10-12T15:26:59
+source = "screenshots"
+
+[[item]]
+file = "neocities-screenshot001.jpg"
+date = 2025-11-22T09:28:42
+source = "screenshots"
+title = "Old website screenshot"
+
+[[item]]
+file = "neocities-screenshot002.jpg"
+date = 2025-11-22T09:28:42
+source = "screenshots"
+title = "Old website screenshot"
+
+[[item]]
+file = "neocities-screenshot003.jpg"
+date = 2025-11-22T09:28:42
+source = "screenshots"
+title = "Old website screenshot"
+
+[[item]]
+file = "neocities-screenshot004.jpg"
+date = 2025-11-22T09:28:43
+source = "screenshots"
+title = "Old website screenshot"
+
+[[item]]
+file = "neocities-screenshot005.jpg"
+date = 2025-11-22T09:28:43
+source = "screenshots"
+title = "Old website screenshot"
+
+[[item]]
+file = "neocities-screenshot006.jpg"
+date = 2025-11-22T09:28:43
+source = "screenshots"
+title = "Old website screenshot"
+
+[[item]]
+file = "neocities-screenshot007.jpg"
+date = 2025-11-22T09:28:42
+source = "screenshots"
+title = "Old website screenshot"

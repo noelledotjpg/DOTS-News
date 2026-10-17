@@ -1,0 +1,16 @@
+title = "Bosses"
+date = 2026-08-21T06:13:31
+body = '''
+I plan for Disorder of the Stone to eventually have bosses. (other than . ) This may or may not be a thing in the release version, I don't know yet.
+If added, they would obviously need some way to spawn.. so, I'll see which option you guys prefer.
+
+This is a bit different than usual; you guys aren't 100% deciding the way they spawn. I still have final say this time.
+
+**OPTION A:**
+You can find large spawners scattered around the world. These will quietly count down while a player is within a couple hundred blocks, and once their counter is low enough, announce that a boss is coming. Sometime after (players are given roughly enough time to prepare), the boss would spawn, whether you're ready or not, much like crashing a party.
+Similar to how House Bosses work in Mewgenics.
+
+**OPTION B:**
+Currently, you can find Key blocks in certain structures. These cannot be made, obtained in item form, or broken, and can only be carried around with both hands. They will open Lock blocks when placed down in front of them.
+With Option B, you would be able to craft special blocks that activate when a Key is placed down in front of them. This would summon a respective boss.
+'''

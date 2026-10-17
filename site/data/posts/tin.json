@@ -1,0 +1,6 @@
+{
+  "slug": "tin",
+  "title": "Tin",
+  "date": "2025-09-26T01:54:01",
+  "body": "Stone tools are no more. Instead, find Tin Ore, smelt it into Tin Ingots and make tools out of those. It isn't all bad: tin can also be made into armour, which stone couldn't.\n\nStat-wise, Tin tools have the same durability stone tools used to have, and Tin armour has identical stats to chainmail.\n\n![image: Tin](media/1420951514603851947.png)\n\nTool durability in general has also been adjusted, to create a more gradual increase rather than a huge jump between iron (previously 250) and diamond (1531):\n\n* Wooden tools: 128\n* Tin tools: 250\n* Iron tools: 650"
+}

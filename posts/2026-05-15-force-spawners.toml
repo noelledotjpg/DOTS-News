@@ -1,0 +1,9 @@
+title = "Force spawners"
+date = 2026-05-15T00:18:26
+body = '''
+In structures, you might encounter a new type of Monster Spawner.
+
+This one doesn't play by the same rules as the regular Monster Spawner. It completely ignores monster spawning conditions, so light is ineffective against it and won't disable it. The only way to stop it from spawning monsters is to break it, and it takes longer to break, too.
+
+![image: Force spawners](media/1504639058414932129.png)
+'''
