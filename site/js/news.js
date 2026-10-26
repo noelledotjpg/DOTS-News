@@ -1,4 +1,3 @@
-
 (function () {
   "use strict";
 
@@ -349,8 +348,23 @@
       if (i > 0) { nav.appendChild(el("a", { href: "?post=" + encodeURIComponent(index.posts[i - 1].slug), text: "Newer" })); }
       if (i < index.posts.length - 1) { nav.appendChild(el("a", { href: "?post=" + encodeURIComponent(index.posts[i + 1].slug), text: "Older" })); }
       nav.appendChild(el("a", { href: view.home, text: view.homeLabel }));
+      if (PAGE === "news") { nav.appendChild(shareLink(post.slug)); }
       postsEl.appendChild(nav);
     });
+  }
+
+  // "Share" copies the /p/<slug>/ link, the one that gives a Discord embed (see share_pages.py)
+  function shareLink(slug) {
+    var url = new URL("p/" + encodeURIComponent(slug) + "/", location.href).href;
+    var a = el("a", { href: url, text: "Share", title: "Copy a link that embeds nicely in Discord" });
+    a.addEventListener("click", function (e) {
+      e.preventDefault();
+      function done() { a.textContent = "Link copied!"; setTimeout(function () { a.textContent = "Share"; }, 2000); }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(done, function () { window.prompt("Copy this link:", url); });
+      } else { window.prompt("Copy this link:", url); }
+    });
+    return a;
   }
 
   function loadPost(entry) {

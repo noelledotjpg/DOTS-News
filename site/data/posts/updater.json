@@ -1,0 +1,6 @@
+{
+  "slug": "updater",
+  "title": "DOTS Updater",
+  "date": "2026-10-26T17:32:21",
+  "body": "I made an update utility for Disorder of the Stone! It's a Prism Launcher instance that installs the latest version of the modpack for you, and updates it when a new one comes out.\n\n~ Niko\n\n![image: The DOTS Updater](media/updater_screen.png)\n\nDownload it [here](https://github.com/noelledotjpg/DOTS-Updater/releases/tag/v1.0) and import it into Prism Launcher (Add Instance → Import). Importing a newer version later replaces the old one."
+}

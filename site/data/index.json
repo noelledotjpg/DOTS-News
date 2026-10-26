@@ -1,5 +1,5 @@
 {
-  "count": 98,
+  "count": 99,
   "posts": [
     {
       "slug": "welcome-playtesters",
@@ -14,6 +14,12 @@
       "date": "2026-10-17T12:00:00",
       "rev": "db45189b",
       "pinned": true
+    },
+    {
+      "slug": "updater",
+      "title": "DOTS Updater",
+      "date": "2026-10-26T17:32:21",
+      "rev": "bcadd459"
     },
     {
       "slug": "bridges",
