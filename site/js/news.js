@@ -576,6 +576,11 @@
         return showVideos(site, data, query);
       }
 
+      if (PAGE === "notfound") {
+        document.title = "Page Not Found | " + site.title;
+        return showMessage("404: that page could not be found.", true, "./", "Back to the news");
+      }
+
       document.title = pageTitle(site);
       if (query.has("post")) { return showSingle(site, data, query.get("post")); }
       var page = parseInt(query.get("page"), 10);
