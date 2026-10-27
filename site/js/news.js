@@ -524,7 +524,10 @@
         src: safeUrl(v.file),
         title: title,
         url: v.url || ("https://www.youtube.com/watch?v=" + id),
-        onError: function () { holder.innerHTML = videoEmbed(id, title); }
+        onError: function () {
+          console.warn("Player: could not load " + safeUrl(v.file) + " - showing the YouTube embed instead.");
+          holder.innerHTML = videoEmbed(id, title);
+        }
       }));
     } else {
       holder.innerHTML = videoEmbed(id, title);
