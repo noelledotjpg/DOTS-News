@@ -1,14 +1,23 @@
 {
-  "count": 9,
+  "count": 11,
   "videos": [
     {
-      "id": "L7WjR010PoA",
-      "url": "https://www.youtube.com/watch?v=L7WjR010PoA",
-      "title": "Disorder Of The Stone MD3 test",
-      "description": "These models won't be in the final game. This is just a test of the md3 rendering, and it's working pretty well except for some broken animations.",
-      "date": "2010-10-23T20:39:26",
+      "id": "vk9B1nSxZjg",
+      "url": "https://www.youtube.com/watch?v=vk9B1nSxZjg",
+      "title": "Minecraft Music - Surgery (feverdream2.mus)",
+      "description": "Music by Nuclear Crackhead-239 (\"NC239\"). ( https://nuclearcrackhead-239.bandcamp.com/track/surgery )",
+      "date": "2026-10-27T10:01:05",
       "unlisted": false,
-      "file": "media/videos/L7WjR010PoA.mp4"
+      "file": "media/videos/vk9B1nSxZjg.mp4"
+    },
+    {
+      "id": "cyoENViUoG8",
+      "url": "https://www.youtube.com/watch?v=cyoENViUoG8",
+      "title": "Minecraft Music - Axonic Collapse (feverdream1.mus)",
+      "description": "Music by Nuclear Crackhead-239 (\"NC239\"). ( https://nuclearcrackhead-239.bandcamp.com )",
+      "date": "2026-10-27T10:00:34",
+      "unlisted": false,
+      "file": "media/videos/cyoENViUoG8.mp4"
     },
     {
       "id": "V9E7Pcs2zxM",
@@ -81,6 +90,15 @@
       "date": "2026-02-10T21:21:20",
       "unlisted": false,
       "file": "media/videos/82o_ivT92Z8.mp4"
+    },
+    {
+      "id": "L7WjR010PoA",
+      "url": "https://www.youtube.com/watch?v=L7WjR010PoA",
+      "title": "Disorder Of The Stone MD3 test",
+      "description": "These models won't be in the final game. This is just a test of the md3 rendering, and it's working pretty well except for some broken animations.",
+      "date": "2010-10-23T20:39:26",
+      "unlisted": false,
+      "file": "media/videos/L7WjR010PoA.mp4"
     }
   ]
 }
