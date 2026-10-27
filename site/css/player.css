@@ -1,0 +1,371 @@
+
+.yt {
+   position: relative;
+   width: 480px;
+   max-width: 100%;
+   margin: 0 0 1em 0;
+   background: #000;
+   font: 11px/1 Arial, Helvetica, sans-serif;
+   color: #999;
+   user-select: none;
+   overflow: hidden
+}
+
+.yt video {
+   display: block;
+   width: 100%;
+   height: auto;
+   aspect-ratio: 16/9;
+   background: #000
+}
+
+.yt:fullscreen {
+   width: 100%;
+   height: 100%;
+   margin: 0
+}
+
+.yt:fullscreen video {
+   height: 100%;
+   aspect-ratio: auto
+}
+
+
+.yt .i {
+   display: block;
+   width: var(--w);
+   height: var(--h);
+   background: url(../img/player-dark.png) no-repeat var(--x) var(--y)
+}
+
+.yt button:hover>.i,
+.yt button:focus-visible>.i {
+   background-position: var(--hx) var(--hy)
+}
+
+.yt .c {
+   background-image: url(../img/player-common.png)
+}
+
+.yt .play {
+   --w: 14px;
+   --h: 18px;
+   --x: -117px;
+   --y: -237px;
+   --hx: -142px;
+   --hy: -48px
+}
+
+.yt.paused .pause-i {
+   display: none
+}
+
+.yt.playing .play {
+   display: none
+}
+
+.yt .pause-i {
+   --w: 14px;
+   --h: 18px;
+   --x: -85px;
+   --y: -183px;
+   --hx: -85px;
+   --hy: -264px
+}
+
+.yt .vol {
+   --w: 22px;
+   --h: 16px;
+   --x: -159px;
+   --y: -265px;
+   --hx: -127px;
+   --hy: -130px
+}
+
+.yt .volwrap .i {
+   position: relative;
+   top: -1px
+}
+
+.yt.is-muted .vol {
+   --w: 22px;
+   --h: 15px;
+   --x: -127px;
+   --y: -22px;
+   --hx: -6px;
+   --hy: -49px
+}
+
+.yt .gear {
+   --w: 18px;
+   --h: 20px;
+   --x: -159px;
+   --y: -127px;
+   --hx: -134px;
+   --hy: -208px
+}
+
+.yt .clock {
+   --w: 15px;
+   --h: 15px;
+   --x: -8px;
+   --y: -265px;
+   --hx: -72px;
+   --hy: -238px
+}
+
+.yt .wide {
+   --w: 20px;
+   --h: 14px;
+   --x: -94px;
+   --y: -23px;
+   --hx: -37px;
+   --hy: -212px
+}
+
+.yt .fs {
+   --w: 22px;
+   --h: 18px;
+   --x: -93px;
+   --y: -129px;
+   --hx: -100px;
+   --hy: -102px
+}
+
+.yt .ytlogo {
+   --w: 38px;
+   --h: 15px;
+   --x: -309px;
+   --y: -40px;
+   --hx: -22px;
+   --hy: -5px
+}
+
+.yt .up {
+   --w: 13px;
+   --h: 16px;
+   --x: 0;
+   --y: -11px;
+   --hx: 0;
+   --hy: -11px
+}
+
+.yt .down {
+   --w: 14px;
+   --h: 17px;
+   --x: -53px;
+   --y: -27px;
+   --hx: -53px;
+   --hy: -27px
+}
+
+.yt button {
+   all: unset;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-sizing: border-box
+}
+
+.yt button:focus-visible {
+   outline: 1px dotted #aaa
+}
+
+
+.yt .top {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 26px;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   padding: 0 8px;
+   background: linear-gradient(rgba(0, 0, 0, .85), rgba(0, 0, 0, .55));
+   color: #ccc;
+   font-size: 12px;
+   transition: opacity .3s
+}
+
+.yt .title {
+   flex: 1;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   font-size: 13px;
+   letter-spacing: .5px
+}
+
+.yt .top button {
+   padding: 2px 3px;
+   color: #ccc
+}
+
+.yt .top button:hover {
+   color: #fff
+}
+
+.yt .top .on .i {
+   filter: brightness(.6) sepia(1) hue-rotate(-50deg) saturate(6)
+}
+
+.yt .more::before {
+   content: "";
+   border: 4px solid transparent;
+   border-top: 6px solid #ccc;
+   margin: 3px 6px 0 0
+}
+
+.yt.idle .top {
+   opacity: 0
+}
+
+
+.yt .progress {
+   position: relative;
+   height: 8px;
+   background: linear-gradient(#323232 0, #323232 1px, #222 1px);
+   cursor: pointer
+}
+
+.yt .load,
+.yt .fill {
+   position: absolute;
+   left: 0;
+   top: 0;
+   bottom: 0;
+   width: 0
+}
+
+.yt .load {
+   background: linear-gradient(#6f6f6f 0, #6f6f6f 1px, #646464 1px)
+}
+
+.yt .fill {
+   background: linear-gradient(to bottom, #a90329, #8f0222 44%, #6d0019)
+}
+
+.yt .knob {
+   position: absolute;
+   top: -4px;
+   left: 0;
+   width: 16px;
+   height: 17px;
+   margin-left: -8px;
+   background: url(../img/player-commonpng) -158px -19px no-repeat
+}
+
+.yt .progress:hover .knob,
+.yt .progress.drag .knob {
+   background-position: -158px 0
+}
+
+
+.yt .controls {
+   height: 27px;
+   display: flex;
+   align-items: center;
+   color: #808080;
+   background: linear-gradient(#050505 0, #050505 1px, #494747 1px, #494747 2px, #282828 2px, #0a0a0a 100%)
+}
+
+.yt .controls>button,
+.yt .controls>.volwrap {
+   height: 100%
+}
+
+.yt .controls button {
+   height: 100%;
+   padding: 0 9px
+}
+
+
+.yt .sep {
+   border-right: 1px solid #191919;
+   box-shadow: 1px 0 0 #2d2d2d;
+   margin-right: 1px
+}
+
+.yt .controls .play,
+.yt .controls .pause-i {
+   margin: 0
+}
+
+.yt .spacer {
+   flex: 1
+}
+
+.yt .time {
+   padding: 0 6px 0 7px;
+   font-size: 11px;
+   white-space: nowrap
+}
+
+.yt .time .cur {
+   color: #fff
+}
+
+
+.yt .volwrap {
+   display: flex;
+   align-items: center
+}
+
+.yt .volwrap button {
+   padding: 0 9px
+}
+
+.yt .vwrap {
+   width: 0;
+   height: 100%;
+   overflow: hidden;
+   transition: width .15s
+}
+
+.yt .volwrap:hover .vwrap,
+.yt .volwrap:has(.vslider.drag) .vwrap {
+   width: 66px
+}
+
+.yt .vslider {
+   position: relative;
+   flex: none;
+   width: 54px;
+   height: 100%;
+   margin: 0 8px 0 4px;
+   cursor: pointer
+}
+
+
+.yt .vslider::before,
+.yt .vfill {
+   content: "";
+   position: absolute;
+   left: 0;
+   top: 10px;
+   height: 7px
+}
+
+.yt .vslider::before {
+   right: 0;
+   background: linear-gradient(#050404 0, #050404 6px, #444 6px)
+}
+
+.yt .vfill {
+   background: linear-gradient(#290909 0, #290909 1px, #bd2020 1px, #bd2020 2px, #b31e1e 2px, #b31e1e 3px, #a71c1c 3px, #a71c1c 4px, #901a1a 4px, #901a1a 5px, #6f1313 5px, #6f1313 6px, #444 6px)
+}
+
+.yt .vknob {
+   position: absolute;
+   top: 7px;
+   width: 5px;
+   height: 14px;
+   margin-left: -2px;
+   background: url(../img/player-dark.png) -48px 0 no-repeat
+}
+
+.yt .logo-b {
+   margin-left: 2px
+}

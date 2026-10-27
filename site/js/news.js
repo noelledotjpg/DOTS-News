@@ -517,7 +517,19 @@
       node.appendChild(el("div", { "class": "content video-desc", html: linkify(v.description) }));
     }
 
-    node.appendChild(el("div", { "class": "content", html: videoEmbed(id, title) }));
+    // 2010-style player for the archived file; falls back to the YouTube embed if the file can't be loaded
+    var holder = el("div", { "class": "content" });
+    if (window.DOTSPlayer && v.file) {
+      holder.appendChild(window.DOTSPlayer.create({
+        src: safeUrl(v.file),
+        title: title,
+        url: v.url || ("https://www.youtube.com/watch?v=" + id),
+        onError: function () { holder.innerHTML = videoEmbed(id, title); }
+      }));
+    } else {
+      holder.innerHTML = videoEmbed(id, title);
+    }
+    node.appendChild(holder);
 
     var ext = v.file ? v.file.replace(/^.*\./, "") : "mp4";
     var name = title.replace(/[\\\/:*?"<>|]+/g, "").trim() || id;
