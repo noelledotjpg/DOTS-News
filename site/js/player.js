@@ -113,7 +113,7 @@
     q(".fs").onclick = function () {
       if (document.fullscreenElement) { document.exitFullscreen(); } else { yt.requestFullscreen(); }
     };
-    q(".wd").onclick = function () { yt.style.width = yt.style.width === "640px" ? "480px" : "640px"; };
+    q(".wd").onclick = function () { yt.classList.toggle("widescreen"); };
 
     
     ["like", "dislike"].forEach(function (cls) {
